@@ -1,4 +1,6 @@
-
+# 社區郵件通知APP
+## 利用社區管理中心的手機，掃描信箱上的QR Code，再經由Line Notify發送"信箱有信"的訊息到住戶手機。
+## QR code格式：< 戶號或門牌號 >,< Line Notify Token >
 ## 執行步驟
 ### 建立空的 mail_notify 專案
 #### 開啟VS Code程式，在Termianl底下執行
@@ -52,5 +54,8 @@ graph TD
     K --> L
     L --> D
 ```
-
+### 製作Android安裝檔
+#### 在VS Code的Terminal底下執行
+flutter build apk
+#### 完成後，可以在目錄 build\app\outputs\flutter-apk 底下得到 .apk 檔
 
