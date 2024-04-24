@@ -1,0 +1,27 @@
+name: mail_notify
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0-174.2.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9  # 用於攝像頭功能
+  qr_code_scanner: ^1.0.1  # 用於掃描 QR 碼
+  http: ^1.2.1  # 用於發送 HTTP 請求
+  intl: ^0.19.0  # 用於格式化日期
+  audioplayers: ^6.0.0  # 用於撥放聲音
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sound_effects/
+
